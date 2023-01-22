@@ -1,0 +1,234 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Bebas+Neue&family=Comfortaa:wght@300;400;500;600;700&family=Work+Sans:ital,wght@0,200;0,400;0,700;1,300;1,400&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* font-weight: 700; */
+    /* font-family: 'Work Sans', sans-serif; */
+    /* font-size: 1rem; */
+    font-family: 'Comfortaa', cursive;
+
+
+}
+html {
+    scroll-behavior: smooth;
+    /* color: white; */
+}
+
+body{
+    /* background-color: bisque; */
+    background: linear-gradient(rgba(0,0,0,0.6),rgb(0,0,0,0.6),rgba(0,0,0,0.99),rgba(0,0,0,0.8),rgba(0,0,0,0.8),rgba(0,0,0,0.999),rgba(0,0,0,0.9),rgba(0,0,0,0.8),rgba(0,0,0,0.77),rgba(0,0,0,0.6),rgba(0,0,0,0.5),rgba(0,0,0,0.9)),url("https://wallpapercave.com/dwp2x/wp1945897.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background: linear-gradient(rgba(0,0,0,0.6),rgb(0,0,0,0.6)),url("https://wallpapercave.com/uwp/uwp3193865.jpeg"); */
+}
+
+center{
+    /* border: 4px solid rebeccapurple; */
+    /* background: #0A2647; */
+    color:#C7F0DB;
+    margin: 0 auto;
+    padding-top: 2rem;
+    padding-bottom: 1.5rem;
+    background: linear-gradient(rgba(0,0,0,0.01),rgba(0,0,0,0.4),rgba(0,0,0,0.8),rgba(0,0,0,0.999),rgba(0,0,0,0.9),rgba(0,0,0,0.8),rgba(0,0,0,0.77),rgba(0,0,0,0.6),rgba(0,0,0,0.5),rgba(0,0,0,0.01));
+}
+
+.action-movies{
+        /* border: 4px solid red; */
+        object-fit: cover; 
+        height:100%;
+        width: 300px;
+        display: flex; 
+        justify-content: center;
+        align-items: center;
+}
+
+center h1{
+    /* border: 3px solid saddlebrown; */
+    text-transform: uppercase;
+    line-height: 1;
+    font-weight: 300;
+    color: gold;
+}
+
+
+
+.movies-wrapper-background{
+    /* border: 3px solid rgb(131, 131, 247); */
+    /* background:#0A2647; */
+    height: 100%;
+    width: 100%;
+    margin-top: 0;
+    /* background: linear-gradient(rgba(0,0,0,0.6),rgb(0,0,0,0.6)),url("https://images.unsplash.com/photo-1541701494587-cb58502866ab?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTF8fGFic3RyYWN0fGVufDB8fDB8fA%3D%3D&w=1000&q=80"); */
+}
+
+.movies-wrapper{
+    /* border: 3px solid rgb(19, 45, 139); */
+
+    width: 70%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    /* grid-template-columns: repeat(auto-fill,minmax(225px,1fr)); */
+    gap: 20px;
+    grid-row-gap:40px;
+    margin: 0 auto;
+    margin-top: 1rem;
+}
+.title-photo{
+    /* border: 4px solid wheat; */
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.movie-card{
+    border: 1px solid #FF4848;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 0rem;
+    width: 90%;
+    line-height: 1.2;
+    margin: 0 auto;
+    border-radius: 10px;
+    /* background-color: rgba(24, 22, 20, 0.804); */
+    background: linear-gradient(rgba(0,0,0,0.99),rgba(0,0,0,0.8),rgba(0,0,0,0.8),rgba(0,0,0,0.999),rgba(0,0,0,0.9),rgba(0,0,0,0.8),rgba(0,0,0,0.77),rgba(0,0,0,0.6),rgba(0,0,0,0.5),rgba(0,0,0,0.9));
+    /* box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px; */
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+    transition: 0.3s;
+    /* box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px; */
+
+}
+
+.movie-card:hover{
+    /* background-color: #FF5F00; */
+    /* letter-spacing: 3px; */
+    transform: scale(1.07);
+    background: #f05b5b;
+    color: black;
+    font-weight: 700;
+     /* box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px; */
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+.movie-card a{
+    text-decoration: none;
+    color: white;
+}
+.movie-card a:hover{
+    color: rgb(0, 0, 0);
+    font-weight: 700;
+}
+.movie-card a img{
+    /* border: 4px solid rgb(248, 248, 22); */
+    /* width: 250px; */
+    width: 250px;
+    height: 300px;
+    display: block;
+    margin: 0 auto;
+    object-fit: contain;
+
+   
+}
+
+.movie-card h2{
+        /* border: 3px solid rgb(178, 211, 121); */
+        padding-top: 1.5rem;
+        padding-bottom: 1.5rem;
+        padding-left: 10px;
+        padding-right: 10px;
+        margin: auto 0;
+        text-align: center;
+        text-decoration: none;
+        /* color: wheat; */
+        text-transform: uppercase;
+        font-weight: 400;
+        font-size: 1rem;
+        width: 100%;
+}
+
+.movie-card p{
+    /* border: 3px solid rgb(178, 211, 121); */
+    height: 60%;
+    padding: 3rem;
+    margin: auto 0;
+    text-align: left;
+    letter-spacing: 1px;
+    /* text-transform: uppercase; */
+    font-weight: 300;
+    font-size: 1rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 1200px){
+
+    body{
+        background-color: aqua;
+        
+    }
+
+ 
+    .movie-card{
+        margin: 0 auto;
+        flex-direction: column;
+    }
+   
+
+}
+
+
+@media only screen and (max-width: 780px){
+ 
+    body{
+        background-color: rgb(178, 211, 121);
+    }
+    .movies-wrapper{
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .movie-card{
+        flex-direction: column;
+    }
+  
+  
+ 
+}
+
+
+
+@media only screen and (max-width: 550px){
+
+    body{
+        background-color: rgb(176, 107, 17);
+    }
+    .movies-wrapper{
+        width: 90%;
+        }
+
+ 
+}
