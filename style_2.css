@@ -180,6 +180,10 @@ body{
 .more-movies{
     grid-template-columns: repeat(2,1fr);
 }
+    .movie-photos img{
+    width: 200px;
+    height: 100px;
+}
 }
 
 
@@ -187,7 +191,10 @@ body{
 
 @media only screen and (max-width: 780px){
  
-
+ .movie-photos img{
+    width: 150px;
+    height: 90px;
+}
   body{
     /* background-color: aquamarine; */
   }
